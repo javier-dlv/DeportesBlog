@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    max-width: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+.col-img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.volver-inicio{
+    width: 60%;
+}
+
+.volver-inicio:hover{
+    font-size: 40px;
+}
+
+.row2{
+    height: 70%;
+}

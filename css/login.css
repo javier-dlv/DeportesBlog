@@ -1,0 +1,12 @@
+body{
+    background: #ffe259;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+}
+
+.bg-img{
+background-image: url(/assets/imagen-login2.png);
+background-position: center;
+background-size: cover;
+object-fit: cover;
+}
+

@@ -1,0 +1,111 @@
+/*MENU*/
+header{
+    background-color: #3C2A21;
+}
+
+header img{
+    width: 150px;
+    height: 70px;
+}
+
+.suscribirse{
+    color: tomato;
+}
+
+.suscribirse:visited{
+    color: tomato;
+}
+
+.suscribirse:hover{
+    color: black;
+}
+
+.item-menu:hover{
+    background-color: #D5CEA3;
+    border-radius: 17px;
+}
+
+/*carouse*/
+#main .carousel-item img{
+    max-height: 70vh;
+    filter: grayscale(70%);
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+/*CARD*/
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    height: 40%;
+}
+
+.boton-card{
+    background-color: #D5CEA3;
+}
+
+.boton-card:hover{
+    background-color: #D5CEA3;
+}
+
+/*FOOTER*/
+.footer{
+background-color: #E5E5CB;
+padding: 10px 0px;
+}
+
+footer img{
+    width: 150px;
+    height: 70px;
+}
+
+.footer .row{
+    min-height: 150px;
+    text-align: center;
+}
+
+
+.cont-redes{
+    margin-left: 0px !important;
+}
+
+.footer-items{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-items:hover{
+    color: red;
+}
+
+.instagram:hover{
+    background-color: rgb(220, 20, 27);
+    border-radius: 9px;
+}
+
+.whatsapp:hover{
+    background-color: rgb(51, 210, 51);
+    border-radius: 10px;
+}
+
+.facebook:hover{
+   font-size: 20px;
+}
