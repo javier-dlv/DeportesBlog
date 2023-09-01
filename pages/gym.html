@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/entradas.css" />
-    <title>Padel</title>
+    <title>Gym</title>
   </head>
   <body>
     <header class="sticky-top">
@@ -53,15 +53,14 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light item-menu" href="#">Contacto</a>
+                <a class="nav-link text-light item-menu" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light item-menu" href="#">Login</a>
+                <a class="nav-link text-light item-menu" href="./login.html">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link suscribirse item-menu" href="#"
-                  >Suscribirse</a
-                >
+                <a class="nav-link suscribirse item-menu" href="#" data-bs-toggle="modal"
+                 data-bs-target="#modal">Suscribirse</a>
               </li>
             </ul>
           </div>
@@ -228,13 +227,13 @@
             <div
               class="d-flex gap-5 ms-0 justify-content-center ms-5 cont-redes"
             >
-              <a href="" class="text-dark instagram"
+              <a href="/pages/error404.html" class="text-dark instagram"
                 ><i class="fa-brands fa-instagram fa-2xl instagram"></i
               ></a>
-              <a href="" class="text-dark facebook"
+              <a href="/pages/error404.html" class="text-dark facebook"
                 ><i class="fa-brands fa-facebook fa-2xl"></i
               ></a>
-              <a href="" class="text-dark whatsapp"
+              <a href="/pages/error404.html" class="text-dark whatsapp"
                 ><i class="fa-brands fa-whatsapp fa-2xl"></i
               ></a>
             </div>
@@ -242,13 +241,40 @@
 
           <div class="col-12 col-md mt-5 mt-md-0">
             <h2>Mas informacion</h2>
-            <p><a href="" class="footer-items">Politicas de privacidad</a></p>
-            <p><a href="" class="footer-items">Contactanos</a></p>
-            <p><a href="" class="footer-items">Legal</a></p>
+            <p><a href="/pages/error404.html" class="footer-items">Politicas de privacidad</a></p>
+            <p><a href="/pages/error404.html" class="footer-items">Contactanos</a></p>
+            <p><a href="/pages/error404.html" class="footer-items">Legal</a></p>
           </div>
         </div>
       </div>
     </footer>
+
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-center">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribirme al Blog</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Nombre y Apellido</label>
+            </div>
+            <div class="form-floating mb-2">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Email</label>
+            </div>
+            <div class="alert alert-danger" role="alert">
+              Te mandaremos un correo con el link para tu suscripcion
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
